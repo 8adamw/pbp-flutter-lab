@@ -1,8 +1,8 @@
 # Tugas Flutter PBP
 
-Adam Wilson Autan
-2106752110
-PBP E Gasal 2023
+- Adam Wilson Autan
+- 2106752110
+- PBP E Gasal 2023
 
 ## Tugas 7
 
