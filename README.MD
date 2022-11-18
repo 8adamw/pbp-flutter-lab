@@ -4,6 +4,21 @@
 - 2106752110
 - PBP E Gasal 2023
 
+## Tugas 8
+
+### Pertanyaan-pertanyaan Untuk Tugas 8
+
+1. Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
+2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+3. Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
+4. Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter.
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+
+### Jawaban Untuk Tugas 8
+
+1. Tampilan layar pada flutter menggunakan stack sebagai logika utamanya. Ini berarti layar-layar dapat ditimpa di atas layar lainnya dengan urutan tertentu, dengan push dan pop, sebagaimana stack semestinya. Menggunakan Navigator.push, maka stack akan bertambah satu dan halaman sebelumnya berada di halaman baru. Dengan pushReplacement, halaman yang sekarang akan dihapus dan diganti halaman baru, tanpa mengubah posisinya di stack.
+3. onPressed merupakan function yang akan dieksekusi jika user menekan sebuah widget yang ditampilkan di layar, contohnya sebuah Button.
+4. Navigator menggunakan logika dari sebuah stack untuk mengimplementasikan aplikasi dengan banyak screen. Pertama kali user hanya mempunyai satu screen di stack, sesuai jalannya program, stack ini dapat dilakukan pop dan push. Saat dilakukan push, layar baru akan ditimpa di atas layar yang lama, dan user dapat kembali ke layar sebelumnya dengan menekan, contohnya tombol back yang akan melakukan pop ke screen sekarang dan mengembalikan aplikasi ke layar sebelumnya.
 ## Tugas 7
 
 ### Pertanyaan-pertanyaan Untuk Tugas 7
