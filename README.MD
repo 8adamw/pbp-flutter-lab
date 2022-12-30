@@ -8,7 +8,21 @@
 
 ### Pertanyaan-pertanyaan Untuk Tugas 9
 
+1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya,
+2. apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+3. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+4. Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+
 ### Jawaban Untuk Tugas 9
+
+1. Bisa saja dilakukan, namun parsing data dari file JSON akan lebih sulit tanpa menggunakan model.
+2. Tidak selalu, kecuali jika ingin melakukan hal tertentu kepada file JSON yang didapatkan. Selain itu, menggunakan model lebih baik karena akan mengurangi kompleksitas pemrosesan JSON.
+3. Widget yang digunakan sama dengan tugas-tugas sebelumnya. Contohnya FloatingActionButton untuk tombol back di halaman detail. AppBar untuk menampilkan nama halaman terkini.
+4. Pertama, flutter akan melakukan pemanggilan data dari web service. Dari ini Flutter akan mendapatkan sebuah file JSON. Flutter akan menggunakan `welcomeFromJson()` untuk mem-parse data yang berada di file itu. Menggunakan model yang tersedia, data akan di-mapping ke instance object `WatchlistItem`. Dari itu data dapat ditampilkan
+5.
+   1. Membuat file baru mywatchlist.dart, modelnya serta detail.dart, membuat routing baru di main.dart
+   2. Menambahkan tombol baru di drawer
 
 ## Tugas 8
 

@@ -6,6 +6,11 @@ class DrawerWidget extends StatelessWidget {
     return Drawer(
       child: Column(children: [
         ListTile(
+            title: const Text('Mywatchlist'),
+            onTap: () {
+              Navigator.pushNamed(context, '/mywatchlist');
+            }),
+        ListTile(
             title: const Text('Counter'),
             onTap: () {
               Navigator.pushNamed(context, '/counter');

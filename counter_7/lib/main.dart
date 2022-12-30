@@ -1,6 +1,6 @@
 import 'package:counter_7/tambahbudget.dart';
-import 'package:counter_7/counter.dart';
 import 'package:counter_7/databudget.dart';
+import 'package:counter_7/mywatchlist.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         title: 'PBP Flutter',
         routes: {
             "/tambah": (BuildContext context) => const SubmitPage(),
+            "/mywatchlist": (BuildContext context) => const Mywatchlist(),
         },
       ),
     );
